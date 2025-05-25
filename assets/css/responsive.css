@@ -1,0 +1,128 @@
+@media screen and (max-width: 375px) {
+  .box {
+    top: 25px;
+    margin-right: 4px;
+    height: 38rem;
+    width: 20rem;
+  }
+
+  #logoImageAptech {
+    top: 6px;
+    right: 72px;
+    height: 108px;
+    width: 232px;
+  }
+  #loginKiHeading {
+    font-size: x-large;
+    top: 122px;
+    right: 10px;
+    left: 10px;
+  }
+  #greyline {
+    right: -72px;
+    top: 53px;
+    position: absolute;
+  }
+  .formInput {
+    top: 14rem;
+    right: 40px;
+  }
+  #emailinput {
+    width: 400px;
+  }
+  #youremailline {
+    right: 148px;
+  }
+  .formpasswordinput {
+    top: 20rem;
+    right: 40px;
+  }
+
+  #loginBtn {
+    left: 110px;
+    top: 28rem;
+  }
+  #fPassword {
+    display: none;
+    top: -35px;
+    right: 10px;
+    position: absolute;
+  }
+
+  #stuportalhead {
+    display: none;
+  }
+  #stuportalheadResponsive {
+    display: block;
+    top: 70px;
+    font-size: x-large;
+    position: absolute;
+    right: 86px;
+  }
+  #fPasswordResponsive {
+    display: block;
+    position: absolute;
+    top: 32rem;
+    right: 15px;
+  }
+}
+/* ===========================
+   Tablet View (Portrait & Landscape)
+   =========================== */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  .logobox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logoImageAptech {
+    height: 150px;
+    width: auto;
+  }
+
+  #stuportalheadResponsive {
+    display: none;
+  }
+
+  #stuportalhead {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  #loginBtn {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  #fPassword,
+  #fPasswordResponsive {
+    font-size: 0.9rem;
+    text-align: right;
+    margin-top: 0.5rem;
+  }
+}
