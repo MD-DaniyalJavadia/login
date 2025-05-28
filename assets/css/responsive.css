@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+ @media screen and (max-width: 375px) {
   .box {
     top: 25px;
     margin-right: 4px;
@@ -65,64 +65,116 @@
     top: 32rem;
     right: 15px;
   }
+} 
+
+
+ @media screen and (min-width: 768px) and (max-width: 1024px)  
+{
+
+   
+    .box
+    {
+        top:253px;
+        margin-right: 4px;
+        height: 56rem;
+        width: 50rem;
+    }
+
+    #logoImageAptech
+    {
+        top:300px;
+        right: 310px;
+        height: 180px;
+        width: 420px;
+    }
+    #loginKiHeading
+    {
+        font-size: x-large;
+        top:260px;
+        right: 10px;
+        left: 10px;
+    }
+    #greyline
+    {
+        right:-72px;
+        top:53px;
+        position: absolute;
+    }
+    .formInput
+    {
+        top:14rem;
+        right: 40px;
+    }
+     #emailinput
+    {
+        top:150px;
+        position: absolute;
+        width: 430px;
+
+    }
+    #youremailline
+    {
+      right: 350px;
+      top:185px
+    }
+    .formpasswordinput
+    {
+        top:20rem;
+        right: 40px;
+    }
+
+    #loginBtn
+    {
+        left: 340px;
+        top:36rem;
+    }
+    #fPassword
+    {
+        display: none;
+        top:-35px;
+        right: 10px;
+        position: absolute;
+    }
+   
+    #stuportalhead
+    {
+        display: none;
+    }
+    #stuportalheadResponsive
+    {
+        display: block;
+        top:200px;
+        font-size: x-large;
+        position: absolute;
+        right: 322px;
+    }
+    #fPasswordResponsive
+    {
+        display: block;
+        position: absolute;   
+        top:42rem;
+        right: 168px;
+    }
+    .line
+    {
+       position: absolute;
+       left: 24rem;
+       top: 16.5rem;   
+    }
+
+#yourPasswordinput {
+    position: absolute;
+    width: 430px;
+    height: 38px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    top: 155px;
 }
-/* ===========================
-   Tablet View (Portrait & Landscape)
-   =========================== */
+#yourpasswordine {
+    position: absolute;
+    top: 198px;
+    left: 10.2rem;
+    color: #f7b205;
+}
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .container {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .box {
-    width: 50%;
-    height: auto;
-    padding: 2rem;
-    margin: 1rem;
-  }
-
-  .logobox {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #logoImageAptech {
-    height: 150px;
-    width: auto;
-  }
-
-  #stuportalheadResponsive {
-    display: none;
-  }
-
-  #stuportalhead {
-    display: block;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 1rem;
-  }
-
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  #loginBtn {
-    width: 100%;
-    font-size: 1rem;
-    margin-top: 1rem;
-  }
-
-  #fPassword,
-  #fPasswordResponsive {
-    font-size: 0.9rem;
-    text-align: right;
-    margin-top: 0.5rem;
-  }
 }
